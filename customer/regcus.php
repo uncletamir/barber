@@ -66,7 +66,7 @@ if ($cekkode1 && $cekkode1->num_rows == 1) {
 
 
         $mail->Subject = 'BarberApp: Registrasi Akun';
-        $url = 'http://localhost:8000/barber/backend/verifycus.php?key=' . $hash . '';
+        $url = 'https://mai-barber.herokuapp.com/verifycus.php?key=' . $hash . '';
 
         $message = '<p>Hi ' . $cusname . ',</p>';
         $message .= '<p>Terima kasih telah melakukan registrasi akun. Untuk mengaktifkan akun anda silahkan klik tautan berikut ini. <br />';
